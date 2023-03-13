@@ -1,17 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
 }
+
+#characters-select {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #555;
+}
+
+#character-name {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
 #character-photo {
     text-align: center;
+    margin-top: 30px;
 }
+
 img {
     height: 500px;
     width: 500px;
-    margin-top: 50px;
 }
+
 p {
     text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
 }
-h2 {
-    text-align: center;
+
+@media only screen and (max-width: 768px) {
+    #characters-select {
+        width: 80%;
+    }
+    img {
+        width: 50%;
+        height: 50%;
+    }
 }
+
