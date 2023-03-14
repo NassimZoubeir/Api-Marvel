@@ -52,7 +52,7 @@ fetch("http://gateway.marvel.com/v1/public/characters?ts=1&apikey=1120682b8d2827
 //   });
 
 
-    //--------------------------------- DEUXIEME METHODE -----------------------------------------------------------------------------------
+     //--------------------------------- DEUXIEME METHODE -----------------------------------------------------------------------------------
 
 // Sélectionne l'élément HTML avec l'ID "characters-select"
 const select = document.querySelector('#characters-select');
