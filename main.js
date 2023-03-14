@@ -27,11 +27,11 @@ fetch("http://gateway.marvel.com/v1/public/characters?ts=1&apikey=1120682b8d2827
       select.appendChild(option);
 
       // Condition permettant d'afficher seulement les personnages ayant une description et une image
-      if (character.description && character.thumbnail.path !== "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available") {
-                option.value = character.id;
-                option.text = character.name;
-                select.appendChild(option);
-            }
+      // if (character.description && character.thumbnail.path !== "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available") {
+      //           option.value = character.id;
+      //           option.text = character.name;
+      //           select.appendChild(option);
+      //       }
     });
 
     // Ajoute un écouteur d'événements pour le changement de sélection dans le menu déroulant
